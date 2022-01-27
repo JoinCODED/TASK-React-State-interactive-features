@@ -1,7 +1,4 @@
-
-
-const ProductItem = ({product}) => {
-
+const ProductItem = ({ product }) => {
   return (
     <div className="productWrapper">
       <img alt={product.name} src={product.image} />

@@ -2,7 +2,7 @@
 import ProductItem from "./ProductItem";
 import SearchBar from "./SearchBar";
 // Data
-import products from "../products";
+import products from "../data/products";
 
 const ProductList = () => {
   const productList = products.map((product) => (

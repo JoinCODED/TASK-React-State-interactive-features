@@ -1,21 +1,16 @@
-
 import Home from "./components/Home";
 // Components
 import ProductList from "./components/ProductList";
-//styling
-import "./App.css"
+// Styling
+import "./App.css";
 
-
-
-function App() {
-
-
+const App = () => {
   return (
     <div>
       <Home />
       <ProductList />
     </div>
   );
-}
+};
 
 export default App;
